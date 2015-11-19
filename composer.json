@@ -3,6 +3,7 @@
 	"description": "describe cmslib extention",
 	"keywords": ["yii2","extension"],
 	"license": "BSD-3-Clause",
+	"type": "yii2-extension",
 	"support": {
 		"issues": "https://github.com/cunwang/yii2-cmslib/issues?q=labels=ext%3Aimagine",
 		"forum": "http://www.yiiframework.com/forum/",
@@ -16,6 +17,9 @@
 			"email": "lodrw@sina.com"
 		}
 	],
+	"require":{
+		"yiisoft/yii2": "*",
+	},
 	"autoload": {
 		"psr-4": {"Yii2cms\\lib\\": ""}
 	}
