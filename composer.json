@@ -17,8 +17,8 @@
 			"email": "lodrw@sina.com"
 		}
 	],
-	"require":{
-		"yiisoft/yii2": "*",
+	"require": {
+		"yiisoft/yii2": "*"
 	},
 	"autoload": {
 		"psr-4": {"Yii2cms\\lib\\": ""}
