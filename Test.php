@@ -1,6 +1,6 @@
 <?php
 
-namespace Mytest-cms\Test;
+namespace Yii2cms\lib;
 
 /**
  * This is just an example.

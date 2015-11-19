@@ -17,6 +17,6 @@
 		}
 	],
 	"autoload": {
-		"psr-4": {"Yii2-cmslib\\Test\\": ""}
+		"psr-4": {"Yii2cms\\lib\\": ""}
 	}
 }
