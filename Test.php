@@ -1,11 +1,11 @@
 <?php
 
-namespace mytest-cms\cmslib;
+namespace Mytest-cms\Test;
 
 /**
  * This is just an example.
  */
-class AutoloadExample
+class Test
 {
     public function run()
     {

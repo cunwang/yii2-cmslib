@@ -1,7 +1,6 @@
 {
-	"name": "mytest-cms/yii2-cmslib",
+	"name": "yii2-cmslib/test",
 	"description": "describe cmslib extention",
-	"type": "yii2-extension",
 	"keywords": ["yii2","extension"],
 	"license": "BSD-3-Clause",
 	"support": {
@@ -18,12 +17,6 @@
 		}
 	],
 	"autoload": {
-		"psr-4": {
-			"mytest-cms\\cmslib\\": ""
-		}
-	},
-	"repositories": [
-        {"type": "composer", "url": "http://packagist.phpcomposer.com"},
-        {"packagist": false}
-    ]
+		"psr-4": {"Yii2-cmslib\\Test\\": ""}
+	}
 }
