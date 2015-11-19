@@ -1,5 +1,5 @@
 {
-	"name": "cms/yii2-cmslib",
+	"name": "mytest-cms/yii2-cmslib",
 	"description": "describe cmslib extention",
 	"type": "yii2-extension",
 	"keywords": ["yii2","extension"],
@@ -22,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"cms\\cmslib\\": ""
+			"mytest-cms\\cmslib\\": ""
 		}
 	}
 }

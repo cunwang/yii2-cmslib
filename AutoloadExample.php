@@ -1,6 +1,6 @@
 <?php
 
-namespace cms\cmslib;
+namespace mytest-cms\cmslib;
 
 /**
  * This is just an example.
