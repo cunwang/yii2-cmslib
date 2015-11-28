@@ -1,5 +1,5 @@
 {
-	"name": "yii2-cmslib/test",
+	"name": "yii2-cmslib/redis",
 	"description": "describe cmslib extention",
 	"keywords": ["yii2","extension"],
 	"license": "BSD-3-Clause",
