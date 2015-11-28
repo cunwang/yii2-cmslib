@@ -1,7 +1,7 @@
 {
 	"name": "yii2-cmslib/redis",
-	"description": "describe cmslib extention",
-	"keywords": ["yii2","extension"],
+	"description": "Redis class, For yii2 extention. Support multiple configuration¡£",
+	"keywords": ["yii2","redis", "multiple","extension"],
 	"license": "BSD-3-Clause",
 	"type": "yii2-extension",
 	"support": {
