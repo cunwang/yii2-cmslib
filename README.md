@@ -2,7 +2,7 @@
 
 
 ###``2015/12/02 add file Redis.php``
->usage £º echo <<< EOT
+>usage:  echo <<< EOT
 
     use \Yii2cms\lib\RedisClass;
 
@@ -16,7 +16,7 @@
 
 <br>
 #### ``[notes]``
-Redis¸ñÊ½ÅäÖÃ ``(\Yii::$app->params['redis'])`` ÈçÏÂ£º
+Yii2ä¸­Redisé…ç½®æ–‡ä»¶æ ¼å¼ ``(\Yii::$app->params['redis'])`` å¦‚ä¸‹ï¼š
 
     $redisCon   = [
 		'msgque_master' => [
