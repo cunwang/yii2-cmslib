@@ -2,9 +2,9 @@
 /**
  * file Redis.php
  * ------------------------------------------------------ +
- * @abstract ÓÃÓÚYii2 ¶àRedisµÄÇé¿ö¡£
- *  - µ¥Àý
- *  - ·½±ãÇÐ»»£¬Ã»ÓÐÉèÖÃ$flagÊ±Ä¬ÈÏÑ¡ÔñµÚÒ»¸ö¡£
+ * @abstract ç”¨äºŽYii2 å¤šRedisçš„æƒ…å†µã€‚
+ *  - å•ä¾‹
+ *  - æ–¹ä¾¿åˆ‡æ¢ï¼Œæ²¡æœ‰è®¾ç½®$flagæ—¶é»˜è®¤é€‰æ‹©ç¬¬ä¸€ä¸ªã€‚
  * 
  * @author wangcun
  * @date 2015/12/02
@@ -31,7 +31,7 @@ use yii\web\NotFoundHttpException;
 
 /**
  * [notes] 
- * 1¡¢ redisÅäÖÃÎÄ¼þ Yii::$app->params['redis'] ¸ñÊ½ÈçÏÂ£º
+ * redisé…ç½®æ–‡ä»¶ Yii::$app->params['redis'] æ ¼å¼å¦‚ä¸‹:
 	$redisCon   = [
 		'msgque_master' => [
 			'host'  => '10.15.209.110',
