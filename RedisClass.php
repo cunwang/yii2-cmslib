@@ -99,7 +99,7 @@ class RedisClass
 			#if failed will try again
             try {
                 $redis->connect($redisHost, $redisPort, $delay);
-            } catch (Exception $e) {
+            } catch (RedisException $e) {
                 $redis->connect($redisHost, $redisPort, $delay);
             }
 			
