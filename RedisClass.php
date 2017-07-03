@@ -103,6 +103,11 @@ class RedisClass
                 $redis->connect($redisHost, $redisPort, $delay);
             }
 			
+			//auth
+			if (isset(self::$redisConf[$flag]['password'])) {
+				$redis->auth(self::$redisConf[$flag]['password']);
+			}
+			
 			self::$redisFlag[$flag]	= $redis;
             return $redis;
         }
