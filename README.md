@@ -1,7 +1,7 @@
 ## yii2-cmslib
 
 
-###``2015/12/02 add file Redis.php``
+### ``2015/12/02 add file Redis.php``
 >usage:  echo <<< EOT
 
     use \Yii2cms\lib\RedisClass;
@@ -15,7 +15,9 @@
 > EOT
 
 <br>
+
 #### ``[notes]``
+
 Yii2中Redis配置文件格式 ``(\Yii::$app->params['redis'])`` 如下：
 
     $redisCon   = [
